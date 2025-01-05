@@ -1,4 +1,4 @@
-pyttsx3
-speechrecognition
-scikit-learn
 streamlit
+nltk
+scikit-learn
+pandas
