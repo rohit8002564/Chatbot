@@ -3,3 +3,5 @@ pyttsx3
 nltk
 scikit-learn
 pandas
+SpeechRecognition
+
