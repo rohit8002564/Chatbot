@@ -61,7 +61,7 @@ counter = 0
 def speak(text):
     """Function to make the chatbot speak in a separate thread."""
     def run_speech():
-        #engine.say(text)  # Uncommented the line for speech
+        engine.say(text)  # Uncommented the line for speech
         engine.runAndWait()
 
     # Run the speech in a separate thread
