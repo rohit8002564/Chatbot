@@ -56,12 +56,14 @@ def chat(user_input):
         if intent['tag'] == prediction:
             return random.choice(intent['responses'])
 
+
+
 counter = 0
 
 def speak(text):
     """Function to make the chatbot speak in a separate thread."""
     def run_speech():
-       # engine.say(text)  # Uncommented the line for speech
+        # engine.say(text)
         engine.runAndWait()
 
     # Run the speech in a separate thread
@@ -158,7 +160,7 @@ def main():
                 st.markdown("------")
                 
     elif choice == "About":
-        st.subheader("Project Goal:") 
+        st.subheader("Project Goal:")
         st.write("The aim of this project is to develop a chatbot capable of understanding and responding to user inputs through Natural Language Processing (NLP) techniques, combined with machine learning algorithms for effective interaction.")
         st.subheader("Project Overview:")
         st.write("""
