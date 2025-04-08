@@ -4,7 +4,7 @@ This is a simple **NLP-based chatbot** that uses **Machine Learning** to underst
 
 🔗 Live Demo
 <p align="center">
-  <a href="https://your-username-chatbot.streamlit.app" target="_blank">
+  <a href="(https://chatbot-am6wggwizydzsdzkag8kyz.streamlit.app/)" target="_blank">
     <img src="https://img.shields.io/badge/Streamlit-Live_App-blue?style=for-the-badge&logo=streamlit" alt="Streamlit App">
   </a>
 </p>
