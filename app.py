@@ -40,12 +40,12 @@ def chat(user_input):
         if intent['tag'] == prediction:
             return random.choice(intent['responses'])
 
-# Voice Output using gTTS
-'''def speak(text):
+# Kumar Voice Output using gTTS
+def speak(text):
     tts = gTTS(text)
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
         tts.save(fp.name)
-        st.audio(fp.name, format="audio/mp3")'''
+        st.audio(fp.name, format="audio/mp3")
 def speak(text):
     tts = gTTS(text)
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
