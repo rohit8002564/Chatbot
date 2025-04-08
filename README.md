@@ -28,13 +28,17 @@ This is a simple **NLP-based chatbot** that uses **Machine Learning** to underst
 ### 📂 Project Structure
 
 ```
-📁 chatbot/
+📁 root/
 │
-├── app.py                  # Main Streamlit app
-├── nlpintents.json         # Intents data (patterns + responses)
-├── chat_log.csv            # Conversation history
-├── README.md               # This file
-```
+├── .devcontainer/
+│   └── devcontainer.json        # Dev container config (optional)
+│
+├── Chatbot.ipynb                # Jupyter Notebook for model development
+├── README.md                    # Project documentation
+├── app.py                       # Main Streamlit chatbot app
+├── nlpintents.json              # Intents and responses
+├── requirements.txt             # Python dependencies
+
 
 ---
 
