@@ -40,11 +40,25 @@ def chat(user_input):
             return random.choice(intent['responses'])
 
 # Voice Output using gTTS
+'''def speak(text):
+    tts = gTTS(text)
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
+        tts.save(fp.name)
+        st.audio(fp.name, format="audio/mp3")'''
 def speak(text):
     tts = gTTS(text)
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
         tts.save(fp.name)
-        st.audio(fp.name, format="audio/mp3")
+        audio_path = fp.name
+
+    # Inject custom HTML audio tag with autoplay
+    audio_html = f"""
+        <audio autoplay>
+            <source src="file://{audio_path}" type="audio/mp3">
+        </audio>
+    """
+    st.markdown(audio_html, unsafe_allow_html=True)
+
 
 # Listen function
 def listen():
