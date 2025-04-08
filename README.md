@@ -3,10 +3,12 @@
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
 
 🔗 Live Demo
+<p align="center">
+  <a href="https://your-username-chatbot.streamlit.app" target="_blank">
+    <img src="https://img.shields.io/badge/Streamlit-Live_App-blue?style=for-the-badge&logo=streamlit" alt="Streamlit App">
+  </a>
+</p>
 
-👉 [Click here to try the chatbot live!](https://chatbot-am6wggwizydzsdzkag8kyz.streamlit.app/)
-
-👉https://chatbot-am6wggwizydzsdzkag8kyz.streamlit.app/
 
 ---
 
