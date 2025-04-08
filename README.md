@@ -2,7 +2,10 @@
 
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
 
-Live app
+🔗 Live Demo
+
+👉 [Click here to try the chatbot live!](https://chatbot-am6wggwizydzsdzkag8kyz.streamlit.app/)
+
 👉https://chatbot-am6wggwizydzsdzkag8kyz.streamlit.app/
 
 ---
