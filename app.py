@@ -4,6 +4,7 @@ import datetime
 import streamlit as st
 import json
 import random
+import base64
 from gtts import gTTS
 import speech_recognition as sr
 import tempfile
@@ -49,13 +50,18 @@ def speak(text):
     tts = gTTS(text)
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
         tts.save(fp.name)
-        audio_path = fp.name
+        audio_file = fp.name
 
-    # Inject custom HTML audio tag with autoplay
+    # Read and encode the mp3 to base64
+    with open(audio_file, "rb") as f:
+        audio_data = f.read()
+        encoded_audio = base64.b64encode(audio_data).decode()
+
+    # Use HTML to auto-play the audio without displaying player
     audio_html = f"""
-        <audio autoplay>
-            <source src="file://{audio_path}" type="audio/mp3">
-        </audio>
+    <audio autoplay>
+        <source src="data:audio/mp3;base64,{encoded_audio}" type="audio/mp3">
+    </audio>
     """
     st.markdown(audio_html, unsafe_allow_html=True)
 
