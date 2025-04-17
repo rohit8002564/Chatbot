@@ -9,7 +9,7 @@ Edunet Foundation | AICTE | Shell India — *Skills4Future Program*
 - Gained hands-on experience in real-world project implementation and AI tools.
 
 ## Certificate
-[![Certificate](https://img.shields.io/badge/Certificate-View-green)](file:///C:/Users/Rohit%20kumar/Downloads/ROHIT%20%20KUMAR_AICTE_Certificate.pdf)
+[![Certificate](https://img.shields.io/badge/Certificate-View-green)](https://drive.google.com/drive/folders/1i84lrguZVxif4yUWe_A1xAlXD5m30RIp?usp=sharing)
 
 
 ## 🤖 NLP Chatbot (Intent-Based)
