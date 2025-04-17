@@ -1,3 +1,13 @@
+## Internship Experience
+
+**Virtual Internship - Artificial Intelligence & Data Analytics (Green Skills)**  
+Edunet Foundation | AICTE | Shell India — *Skills4Future Program*  
+📅 Dec 2024 – Jan 2025 (4 weeks)
+
+- Successfully completed a virtual internship focused on AI, Data Analytics, and Green Skills.  
+- Developed a chatbot using Natural Language Processing (NLP) under the guidance of an industry expert.  
+- Gained hands-on experience in real-world project implementation and AI tools.
+
 ## 🤖 NLP Chatbot (Intent-Based)
 
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
