@@ -8,6 +8,10 @@ Edunet Foundation | AICTE | Shell India — *Skills4Future Program*
 - Developed a chatbot using Natural Language Processing (NLP) under the guidance of an industry expert.  
 - Gained hands-on experience in real-world project implementation and AI tools.
 
+## Certificate
+[![Certificate](https://img.shields.io/badge/Certificate-View-green)](link-to-your-certificate)
+
+
 ## 🤖 NLP Chatbot (Intent-Based)
 
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
