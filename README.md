@@ -14,8 +14,11 @@ Edunet Foundation | AICTE | Shell India — *Skills4Future Program*
 
 
 ## 🤖 NLP Chatbot (Intent-Based)
+[P1_Implementation of Chatbot using NLP_Lab_Manual.docx](https://github.com/user-attachments/files/22780636/P1_Implementation.of.Chatbot.using.NLP_Lab_Manual.docx)
+
 <img width="1915" height="919" alt="Screenshot 2025-10-08 102028" src="https://github.com/user-attachments/assets/00ff98da-d7d8-47cc-b3da-92b6777b9813" />
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
+
 
 ## 🔗 Live Demo
 
