@@ -11,10 +11,10 @@ Edunet Foundation | AICTE | Shell India — *Skills4Future Program*
 ## Certificate
 [![Certificate](https://img.shields.io/badge/Certificate-View-green)](https://drive.google.com/drive/folders/1i84lrguZVxif4yUWe_A1xAlXD5m30RIp?usp=sharing)
 
-<img width="1915" height="919" alt="Screenshot 2025-10-08 102028" src="https://github.com/user-attachments/assets/00ff98da-d7d8-47cc-b3da-92b6777b9813" />
+
 
 ## 🤖 NLP Chatbot (Intent-Based)
-
+<img width="1915" height="919" alt="Screenshot 2025-10-08 102028" src="https://github.com/user-attachments/assets/00ff98da-d7d8-47cc-b3da-92b6777b9813" />
 This is a simple **NLP-based chatbot** that uses **Machine Learning** to understand user intents and respond accordingly. Built with **Streamlit** for a web interface, it supports **text input** and responds with **voice output (gTTS)**.
 
 ## 🔗 Live Demo
